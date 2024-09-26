@@ -16,8 +16,8 @@ Follow these steps to set up the project with a virtual environment and install 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git https://github.com/adansuku/ostia_el_bixpe
+cd ostia_el_bixpe
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -62,19 +62,19 @@ You can run the script with different flags to automate specific tasks:
 #### To pause for breakfast:
 
 ```bash
-python script.py --pause
+python ostia_el_bixpe.py --pause
 ```
 
 #### To resume the workday:
 
 ```bash
-python script.py --resume
+python ostia_el_bixpe.py --resume
 ```
 
 #### To register time normally:
 
 ```bash
-python script.py
+python ostia_el_bixpe.py
 ```
 
 ### 6. Deactivate the Virtual Environment
