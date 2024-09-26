@@ -18,7 +18,7 @@ args = parser.parse_args()
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")  
-service = Service('./chromedriver')
+service = Service('./drivers/chromedriver')
 
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
@@ -30,8 +30,6 @@ try:
 
     username = os.getenv("BIXPE_USERNAME")
     password = os.getenv("BIXPE_PASSWORD")
-    print(f"Username: {username}")
-    print(f"Password: {password}")
 
     username_input.send_keys(username)
     password_input.send_keys(password)
